@@ -1,0 +1,5 @@
+# Add to ~/.codex/config.toml to enable PerpSpread live 7-venue funding & L2 depth tools
+[mcp_servers.perpspread]
+url = "https://perpspread.com/api/mcp"
+# Optional: unlock 60 req/min + 30D history via https://perpspread.com/pricing
+# http_headers = { "X-API-Key" = "ps_live_your_key_here" }

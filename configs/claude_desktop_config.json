@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "perpspread": {
+      "url": "https://perpspread.com/api/mcp"
+    }
+  }
+}

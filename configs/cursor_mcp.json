@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "perpspread": {
+      "url": "https://perpspread.com/api/mcp",
+      "headers": {
+        "X-API-Key": "OPTIONAL_PS_LIVE_KEY"
+      }
+    }
+  }
+}
