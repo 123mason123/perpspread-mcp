@@ -1,0 +1,32 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.123mason123/perpspread-mcp",
+  "title": "PerpSpread — Cross-Exchange Perpetual Funding Arbitrage MCP",
+  "description": "Live 7-venue crypto funding rate spreads, L2 slippage audits, and rotation math.",
+  "version": "1.0.0",
+  "websiteUrl": "https://perpspread.com",
+  "repository": {
+    "url": "https://github.com/123mason123/perpspread-mcp",
+    "source": "github"
+  },
+  "icons": [
+    {
+      "src": "https://perpspread.com/icon-512.png",
+      "mimeType": "image/png"
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://perpspread.com/api/mcp",
+      "headers": [
+        {
+          "name": "X-API-Key",
+          "description": "Optional ps_live_ API key (upgrades rate limit from 15 to 60 req/min). Leave empty for free access.",
+          "isRequired": false,
+          "isSecret": true
+        }
+      ]
+    }
+  ]
+}
